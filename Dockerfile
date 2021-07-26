@@ -1,5 +1,5 @@
 #this dockerfile is build for prometheus
-FROM prometheus
+FROM prom/prometheus
 
 COPY ./conf/prometheus.yml /etc/prometheus/prometheus.yml
 
