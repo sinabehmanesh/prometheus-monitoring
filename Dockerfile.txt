@@ -1,1 +1,0 @@
-#this dockerfile is build for prometheus
