@@ -1,0 +1,10 @@
+#prometheus config file in /etc/prometheus!
+ my global config
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: "SERVER HEALTH CHECK"
+    static_configs:
+      - targets: ["localhost:9090"]
